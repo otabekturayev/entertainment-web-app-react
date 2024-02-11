@@ -1,0 +1,64 @@
+main{
+    padding-left: 140px;
+    height: 100vh;
+    .main1{
+        padding-bottom: 20px;
+        h2{
+            font-size: 32px;
+            font-weight: 300;
+            color: #FFFFFF;
+            margin-top: 35px;
+        }
+        .trendingMovie{
+            overflow-x: scroll;
+            width: 100%;
+            .movieCards{
+                display: flex;
+                gap: 40px;
+            }
+    
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+        .recommended{
+            padding-right: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 40px;
+            row-gap: 30px;
+            margin-top: 30px;
+            // height: 40vh;
+            // overflow-y: scroll;
+            // &::-webkit-scrollbar{
+            //     display: none;
+            // }
+        }
+    }
+    .main2{
+        h3{
+            font-size: 32px;
+            font-weight: 300;
+            color: #FFFFFF;
+            margin-top: 35px;
+        }
+        .searchMovies{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 40px;
+            row-gap: 30px;
+            margin-top: 30px;
+            overflow-y: scroll;
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    main{
+        padding-left: 0;
+    }
+}

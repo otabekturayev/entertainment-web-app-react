@@ -1,0 +1,22 @@
+main{
+    .main1{
+        h2{
+            font-size: 32px;
+            font-weight: 300;
+            color: #FFFFFF;
+            margin-top: 35px;
+            margin-bottom: 38px;
+        }
+        .allMovies{
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 40px;
+            row-gap: 32px;
+            overflow-y: scroll;
+            height: 70vh;
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+    }
+}

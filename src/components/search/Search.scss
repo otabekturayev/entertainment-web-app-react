@@ -1,0 +1,31 @@
+.search{
+    height: 58px;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 35px;
+    label{
+        display: flex;
+        align-items: center;
+    }
+    input{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 1184px;
+        font-size: 24px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 1);
+        font-family: Outfit;
+        caret-color: #FC4747;
+        &:focus{
+            color: rgba(255, 255, 255, 1);
+            border-bottom: 1px solid rgba(90, 105, 143, 1);
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .search{
+        margin-top: 34px;
+    }
+}

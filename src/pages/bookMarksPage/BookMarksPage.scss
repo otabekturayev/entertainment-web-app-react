@@ -1,0 +1,33 @@
+main{
+    .main1{
+        h3{
+            font-size: 32px;
+            font-weight: 300;
+            color: #FFFFFF;
+            margin-top: 35px;
+            margin-bottom: 38px;
+        }
+        .allMarkMovies{
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 40px;
+            row-gap: 32px;
+            // overflow-y: scroll;
+            // height: 40vh;
+            // &::-webkit-scrollbar{
+            //     display: none;
+            // }
+        }
+        .allMarkTvSeries{
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 40px;
+            row-gap: 32px;
+            // overflow-y: scroll;
+            // height: 40vh;
+            // &::-webkit-scrollbar{
+            //     display: none;
+            // }
+        }
+    }
+}

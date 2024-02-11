@@ -1,0 +1,148 @@
+.wrapperSignIn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .wrapperInner{
+        .loginImg{
+            text-align: center;
+            margin-bottom: 83px;
+            margin-top: 44px;
+        }
+        .signIn{
+            background-color: #161D2F;
+            border-radius: 20px;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            p{
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 300;
+                letter-spacing: -0.5px;
+                color: #FFFFFF;
+                margin-bottom: 40px;
+            }
+            .errorMessage{
+                font-size: 13px;
+            }
+            .errorInput{
+                border-bottom: 1px solid #FC4747;
+            }
+            input{
+                font-family: Outfit;
+                border: 0;
+                outline: 0;
+                background: transparent;
+                display: block;
+                border-bottom: 1px solid #5A698F;
+                width: 100%;
+                padding-bottom: 18px;
+                padding-left: 16px;
+                color: #FFFFFF;
+                font-weight: 300;
+                font-size: 15px;
+                &::placeholder{
+                    font-family: Outfit;
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #ffffff7b;
+                }
+                &:focus{
+                    font-family: Outfit;
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #FFFFFF;
+                    border-bottom: 1px solid white;
+                }
+            }
+            .emaildInput{
+                margin-bottom: 30px;
+                position: relative;
+                .errorMessage{
+                    position: absolute;
+                    right: 10px;
+                    top: 0px;
+                    color: #FC4747;
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+            }
+            .passwordFirst{
+                position: relative;
+                margin-bottom: 24px;
+                .errorMessage{
+                    position: absolute;
+                    top: 0px;
+                    right: 10px;
+                    color: #FC4747;
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+                .errorEmailOrPassword{
+                    position: absolute;
+                    bottom: -20px;
+                    color: #FC4747;
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+            }
+            .passwordSecond{
+                position: relative;
+                .errorMessage{
+                    position: absolute;
+                    top: 0px;
+                    right: 10px;
+                    color: #FC4747;
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+                .errorEmailOrPassword{
+                    position: absolute;
+                    bottom: -20px;
+                    color: #FC4747;
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+            }
+            button{
+                width: 100%;
+                height: 48px;
+                outline: 0;
+                border: 0;
+                background-color: #FC4747;
+                border-radius: 6px;
+                font-size: 15px;
+                font-weight: 300;
+                color: #FFFFFF;
+                font-family: Outfit;
+                margin-bottom: 18px;
+                margin-top: 40px;
+                cursor: pointer;
+                &:hover{
+                    background-color: #FFFFFF;
+                    color: #161D2F;
+                }
+            }
+            .sign{
+                display: flex;
+                gap: 9px;
+                align-self: center;
+                .dontAccount{
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #FFFFFF;
+                }
+                .singUp{
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #FC4747;
+                    background-color: transparent;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    width: max-content;
+                    height: max-content;
+                }
+            }
+        }
+    }
+}
